@@ -1,0 +1,92 @@
+/* Table styling */
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 1rem;
+    min-width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-table thead tr {
+    background-color: #6a11cb;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .product-table th,
+  .product-table td {
+    padding: 12px 15px;
+  }
+  
+  .product-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .product-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .product-table tbody tr:last-of-type {
+    border-bottom: 2px solid #6a11cb;
+  }
+  
+  .product-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Input fields */
+  .product-table input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Image container */
+  .image-container {
+    width: 80px; /* Fixed width */
+    height: 80px; /* Fixed height */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-container img {
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%; /* Ensure the image fills the container */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border-radius: 5px;
+  }
+  
+  /* Buttons */
+  .btn-edit, .btn-update, .btn-delete {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-right: 5px;
+  }
+  
+  .btn-edit {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  .btn-update {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-delete {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-edit:hover, .btn-update:hover, .btn-delete:hover {
+    opacity: 0.9;
+  }
